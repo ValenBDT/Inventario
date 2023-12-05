@@ -1,0 +1,16 @@
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.Persistence.deps.json
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.Persistence.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.Persistence.pdb
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.Entities.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.Entities.pdb
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.csproj.AssemblyReference.cache
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.AssemblyInfoInputs.cache
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.AssemblyInfo.cs
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.sourcelink.json
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.csproj.CopyComplete
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\refint\Inventory.Persistence.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.pdb
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\ref\Inventory.Persistence.dll

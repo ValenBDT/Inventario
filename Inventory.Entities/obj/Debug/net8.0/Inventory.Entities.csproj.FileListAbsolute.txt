@@ -1,0 +1,12 @@
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\bin\Debug\net8.0\Inventory.Entities.deps.json
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\bin\Debug\net8.0\Inventory.Entities.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\bin\Debug\net8.0\Inventory.Entities.pdb
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\Inventory.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\Inventory.Entities.AssemblyInfoInputs.cache
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\Inventory.Entities.AssemblyInfo.cs
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\Inventory.Entities.csproj.CoreCompileInputs.cache
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\Inventory.Entities.sourcelink.json
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\Inventory.Entities.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\refint\Inventory.Entities.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\Inventory.Entities.pdb
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Entities\obj\Debug\net8.0\ref\Inventory.Entities.dll
