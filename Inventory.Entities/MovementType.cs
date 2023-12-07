@@ -10,5 +10,8 @@ namespace Inventory.Entities
         public bool IsInternarTransfer { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+
+        public IEnumerable<InventoryMovement>? InventoryMovements { get; set; }
     }
 }
