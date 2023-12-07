@@ -10,7 +10,12 @@ namespace Inventory.Entities
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
-
+        public int CategoryId { get; set; }
+        public Category? Category { get; set; }
+        public int SupplierId { get; set; }
+        public Supplier? Supplier { get; set; }
+        //public IEnumerable<InventoryStock> InventoryStocks { get; set; } es 1 a 1(?)
+        public IEnumerable<InventoryMovement>? InventoryMovements { get; set; }
 
     }
 }

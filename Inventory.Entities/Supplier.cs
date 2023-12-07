@@ -15,5 +15,7 @@ namespace Inventory.Entities
         public string Address { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+        public IEnumerable<Product>? Products { get; set; }
     }
 }
