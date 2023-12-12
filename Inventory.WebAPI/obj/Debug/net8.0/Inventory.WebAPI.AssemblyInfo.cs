@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inventory.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+058addb7dc6b4166e5ca98938d6663e2eb15481a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83fe049dfef9ab0289227f2edc18eab5b148e1e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inventory.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inventory.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
