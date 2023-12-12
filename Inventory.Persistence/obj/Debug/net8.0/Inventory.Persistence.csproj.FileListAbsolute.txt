@@ -16,3 +16,5 @@ C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\ne
 C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\ref\Inventory.Persistence.dll
 C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.Persistence.runtimeconfig.json
 C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\obj\Debug\net8.0\Inventory.Persistence.genruntimeconfig.cache
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.DTOs.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.Persistence\bin\Debug\net8.0\Inventory.DTOs.pdb

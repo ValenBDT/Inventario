@@ -1644,6 +1644,16 @@
           }
         }
       },
+      "Inventory.DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Inventory.DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventory.DTOs.dll": {}
+        }
+      },
       "Inventory.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4292,6 +4302,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Inventory.DTOs/1.0.0": {
+      "type": "project",
+      "path": "../Inventory.DTOs/Inventory.DTOs.csproj",
+      "msbuildProject": "../Inventory.DTOs/Inventory.DTOs.csproj"
+    },
     "Inventory.Entities/1.0.0": {
       "type": "project",
       "path": "../Inventory.Entities/Inventory.Entities.csproj",
@@ -4300,6 +4315,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Inventory.DTOs >= 1.0.0",
       "Inventory.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
@@ -4333,6 +4349,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj": {
+              "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj"
+            },
             "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj": {
               "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj"
             }
