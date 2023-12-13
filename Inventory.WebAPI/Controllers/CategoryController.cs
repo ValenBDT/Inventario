@@ -32,6 +32,22 @@ namespace Inventory.WebAPI.Controllers
             return Ok(categoriesList);
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id){
+            var category = await _categoryRepository.GetByIdAsync(id);
+
+            if(category is null) return NotFound("No se encontro tal categoria");
+            var categoryList = new CategoryToListDTO{
+                Id = category.Id,
+                Name = category.Name,
+                Description = category.Description,
+                CreatedAt = category.CreatedAt,
+                UpdatedAt = category.UpdatedAt
+            };
+
+            return Ok(categoryList);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post(CategoryToCreateDTO categoryToCreateDTO){
             var categoryToCreate = new Category{
@@ -79,10 +95,15 @@ namespace Inventory.WebAPI.Controllers
             };
 
             return Ok(updatedCategoryDTO);
-
-            
-
         }
         
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteById(int id){
+            var categoryToDelete = await _categoryRepository.GetByIdAsync(id);
+            if(categoryToDelete is null) NotFound("Registro no encontrado");
+            var deleted = await _categoryRepository.DeleteAsync(id);
+            if(!deleted) return Ok("Registrno no eliminado, vea los logs");
+            return Ok("Registro eliminado");
+        }
     }
 }
