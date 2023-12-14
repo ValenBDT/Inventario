@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj": {}
+    "C:\\Users\\user\\Desktop\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj": {
+    "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj",
         "projectName": "Inventory.DTOs",
-        "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj",
-        "packagesPath": "C:\\Users\\theVa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theVa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +59,17 @@
         }
       }
     },
-    "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj": {
+    "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj",
         "projectName": "Inventory.Entities",
-        "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj",
-        "packagesPath": "C:\\Users\\theVa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theVa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,6 +94,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -114,17 +126,17 @@
         }
       }
     },
-    "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj": {
+    "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj",
         "projectName": "Inventory.Persistence",
-        "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj",
-        "packagesPath": "C:\\Users\\theVa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theVa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,11 +150,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj": {
-                "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj"
+              "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj"
               },
-              "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj": {
-                "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj"
+              "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj"
               }
             }
           }
@@ -192,17 +204,17 @@
         }
       }
     },
-    "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj": {
+    "C:\\Users\\user\\Desktop\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj",
         "projectName": "Inventory.WebAPI",
-        "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\theVa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.WebAPI\\Inventory.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theVa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -216,14 +228,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj": {
-                "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj"
+              "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.DTOs\\Inventory.DTOs.csproj"
               },
-              "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj": {
-                "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj"
+              "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Entities\\Inventory.Entities.csproj"
               },
-              "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj": {
-                "projectPath": "C:\\Users\\theVa\\OneDrive\\Escritorio\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj"
+              "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Inventario\\Inventory.Persistence\\Inventory.Persistence.csproj"
               }
             }
           }

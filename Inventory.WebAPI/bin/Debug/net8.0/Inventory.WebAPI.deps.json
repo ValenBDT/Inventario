@@ -1079,6 +1079,9 @@
         }
       },
       "Inventory.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
         "runtime": {
           "Inventory.Entities.dll": {}
         }
