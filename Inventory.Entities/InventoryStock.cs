@@ -6,7 +6,7 @@ namespace Inventory.Entities
         public int Quantity { get; set; }
         public string Location { get; set; } = String.Empty;
         public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
 
         public int ProductId { get; set; }
         public Product? Product { get; set; }

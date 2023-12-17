@@ -1,4 +1,4 @@
-namespace Inventory.DTOs.Categoty
+namespace Inventory.DTOs.Category
 {
     public class CategoryToEditDTO
     {

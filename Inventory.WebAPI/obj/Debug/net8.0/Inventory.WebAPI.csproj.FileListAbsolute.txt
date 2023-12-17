@@ -336,3 +336,6 @@ C:\Users\user\Desktop\Inventario\Inventory.WebAPI\obj\Debug\net8.0\Inventory.Web
 C:\Users\user\Desktop\Inventario\Inventory.WebAPI\obj\Debug\net8.0\Inventory.WebAPI.genruntimeconfig.cache
 C:\Users\user\Desktop\Inventario\Inventory.WebAPI\obj\Debug\net8.0\ref\Inventory.WebAPI.dll
 C:\Users\user\Desktop\Inventario\Inventory.WebAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.WebAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.WebAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\theVa\OneDrive\Escritorio\Inventario\Inventory.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

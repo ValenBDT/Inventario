@@ -41,5 +41,14 @@ namespace Inventory.Persistence
             services.AddScoped<ISupplierRepository, SupplierRepository>();
             return services;
         }
+
+        public static IServiceCollection AddAuthContextSqlServer(
+            this IServiceCollection services,
+            IConfiguration configuration,
+            string connectionStringName
+        ){
+            services.AddSqlServer<AuthContext>(configuration.GetConnectionString(connectionStringName));
+            return services;
+        }
     }
 }

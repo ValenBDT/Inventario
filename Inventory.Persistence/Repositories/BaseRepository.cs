@@ -57,6 +57,7 @@ namespace Inventory.Persistence.Repositories
         {
             var item = await _dbSet.FindAsync(id);
             return item;
+
         }
 
         public async Task<bool> UpdateAsync(int id, T entity)

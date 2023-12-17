@@ -1,33 +1,37 @@
+using AutoMapper;
 using Inventory.DTOs.Category;
-using Inventory.DTOs.Categoty;
 using Inventory.Entities;
 using Inventory.Persistence.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Inventory.WebAPI.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryRepository _categoryRepository;
+        private readonly IMapper _mapper;
 
-        public CategoryController(ICategoryRepository categoryRepository)
+        public CategoryController(ICategoryRepository categoryRepository, IMapper mapper)
         {
-            _categoryRepository = categoryRepository;    
+            _mapper = mapper;
+            _categoryRepository = categoryRepository;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll(){
             var categories = await _categoryRepository.GetAllAsync();
-
-            var categoriesList = categories.Select(c => new CategoryToListDTO{
-                Id = c.Id,
-                Name = c.Name,
-                Description = c.Description,
-                CreatedAt = c.CreatedAt,
-                UpdatedAt = c.UpdatedAt
-            }).ToList();
+            var categoriesList = _mapper.Map<List<CategoryToListDTO>>(categories);
+            // var categoriesList = categories.Select(c => new CategoryToListDTO{
+            //     Id = c.Id,
+            //     Name = c.Name,
+            //     Description = c.Description,
+            //     CreatedAt = c.CreatedAt,
+            //     UpdatedAt = c.UpdatedAt
+            // }).ToList();
 
             return Ok(categoriesList);
         }
@@ -37,34 +41,35 @@ namespace Inventory.WebAPI.Controllers
             var category = await _categoryRepository.GetByIdAsync(id);
 
             if(category is null) return NotFound("No se encontro tal categoria");
-            var categoryList = new CategoryToListDTO{
-                Id = category.Id,
-                Name = category.Name,
-                Description = category.Description,
-                CreatedAt = category.CreatedAt,
-                UpdatedAt = category.UpdatedAt
-            };
 
-            return Ok(categoryList);
+            var categoryListDTO = _mapper.Map<CategoryToListDTO>(category);
+
+
+            return Ok(categoryListDTO);
         }
 
         [HttpPost]
         public async Task<IActionResult> Post(CategoryToCreateDTO categoryToCreateDTO){
-            var categoryToCreate = new Category{
-                Name = categoryToCreateDTO.Name,
-                Description = categoryToCreateDTO.Description,
-                CreatedAt = DateTime.Now,
-            };
+            //  var categoryToCreate = new Category
+            //  {
+            //      Name = categoryToCreateDTO.Name,
+            //      Description = categoryToCreateDTO.Description,
+            //      CreatedAt = DateTime.Now
+            //  };
+            var categoryToCreate = _mapper.Map<Category>(categoryToCreateDTO);
+            categoryToCreate.CreatedAt = DateTime.Now;
             var categoryCreated = await _categoryRepository.AddAsync(categoryToCreate);
 
-            var categoryCreatedDTO =  new Category{
-                Id = categoryCreated.Id,
-                Name = categoryCreated.Name,
-                Description = categoryCreated.Description,
-                CreatedAt = DateTime.Now,
-                UpdatedAt = categoryCreated.UpdatedAt,
-            };
-            return Ok(categoryCreatedDTO);
+            //  var categoryCreatedDto = new CategoryToListDTO
+            //  {
+            //      Id=categoryCreated.Id,
+            //      Name = categoryCreated.Name,
+            //      Description= categoryCreated.Description,
+            //      CreatedAt = categoryCreated.CreatedAt,
+            //      UpdatedAt = categoryCreated.UpdatedAt
+            //  };
+            var categoryCreatedDto = _mapper.Map<CategoryToListDTO>(categoryCreated);
+            return Ok(categoryCreatedDto);
         }
 
         [HttpPut("{id}")]
@@ -86,17 +91,11 @@ namespace Inventory.WebAPI.Controllers
 
             var updatedCategory = await _categoryRepository.GetByIdAsync(id);
 
-            var updatedCategoryDTO = new CategoryToListDTO{
-                Id = updatedCategory.Id,
-                Name = updatedCategory.Name,
-                Description = updatedCategory.Description,
-                CreatedAt = updatedCategory.CreatedAt,
-                UpdatedAt = updatedCategory.UpdatedAt,
-            };
+            var updatedCategoryDTO = _mapper.Map<CategoryToListDTO>(updatedCategory);
 
             return Ok(updatedCategoryDTO);
         }
-        
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteById(int id){
             var categoryToDelete = await _categoryRepository.GetByIdAsync(id);
